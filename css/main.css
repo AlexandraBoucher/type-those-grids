@@ -1,7 +1,7 @@
 html {
   box-sizing: border-box;
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   line-height: 1.5;
 }
 
@@ -18,14 +18,13 @@ header {
   font-style: italic;
 }
 
-
 main {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "banner banner banner"
     "col1 col2 col2";
-    gap: .75rem;
+  gap: .75rem;
 }
 
 .banner-img {
@@ -49,7 +48,6 @@ figcaption {
   font-style: italic;
   margin: 0;
   font-size: 1.5rem;
-  }
 }
 
 dl {
