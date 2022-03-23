@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   margin: 0;
   font-family: "Merriweather", serif;
+  font-weight: lighter;
   line-height: 1.5;
 }
 
@@ -13,9 +14,26 @@ img {
   width: 100%;
 }
 
+h1 {
+  margin: 0;
+  padding-bottom: 1rem;
+  font-size: 1.6rem;
+}
+
+h2 {
+  font-style: italic;
+  font-size: 1.4rem;
+}
+
+h2, p {
+  margin: 0;
+  padding-bottom: .3rem;
+}
+
 header {
   padding: 1rem;
   font-style: italic;
+  padding-top: 1.1rem;
 }
 
 main {
@@ -25,6 +43,7 @@ main {
     "banner banner banner"
     "col1 col2 col2";
   gap: .75rem;
+  grid-row-gap: 1rem;
 }
 
 .banner-img {
@@ -45,6 +64,7 @@ figure {
 
 figcaption {
   padding-top: 1rem;
+  padding-left: .5rem;
   font-style: italic;
   margin: 0;
   font-size: 1.5rem;
@@ -56,4 +76,9 @@ dl {
 
 dt {
   padding-left: 1rem;
+  font-style: italic;
+}
+
+article {
+  padding-bottom: .5rem;
 }
